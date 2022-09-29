@@ -3,7 +3,7 @@ import requests
 
 # Free fake API for testing and prototyping.
 # Powered by JSON Server + LowDB.
-response = requests.get("https://jsonplaceholder.typicode.com/todos/1")
+response = requests.get("https://api.publicapis.org/entries")
 
 if(str(response).find('200') != -1): # If requests response code 200(success)
     print('response code 200')
