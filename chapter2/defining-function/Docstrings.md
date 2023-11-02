@@ -12,11 +12,11 @@ They are enclosed in triple-quotes (either single or double) and are typically p
 
 Here's a simple example of a function with a docstring:
 
-> def greet(name):
->    """
->    This function takes a name as an argument and prints a greeting message.
->    
->    :param name: The name of the person to greet.
->    :type name: str
->    """
->    print(f"Hello, {name}!")
+  def greet(name):
+      """
+      This function takes a name as an argument and prints a greeting message.
+    
+      :param name: The name of the person to greet.
+      :type name: str
+      """
+      print(f"Hello, {name}!")
