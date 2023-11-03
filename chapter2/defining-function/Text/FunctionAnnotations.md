@@ -51,7 +51,7 @@ To use function annotations effectively, here are some best practices:
 
 Here's an example of using function annotations for a more complex function:
 
-def calculate_discount(price: float, discount_rate: float) -> float:
+	def calculate_discount(price: float, discount_rate: float) -> float:
 	    """
 	    Calculate the discounted price based on the original price and discount rate.
 
