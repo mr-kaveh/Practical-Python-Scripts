@@ -63,3 +63,5 @@ Here's an example of using function annotations for a more complex function:
 	        float: The discounted price.
 	    """
 	    return price * (1 - discount_rate)
+
+In this example, the annotations provide clear information about the expected types of the function's parameters and return value, while the docstring explains the purpose of the function and its arguments.
