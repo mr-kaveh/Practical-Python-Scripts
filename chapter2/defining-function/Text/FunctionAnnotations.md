@@ -14,9 +14,9 @@ making them a valuable tool for developers and tools that work with Python code.
 
 Here's a basic example of a function with annotations:
 
-def add(a: int, b: int) -> int:
-			"""Add two integers and return their sum."""
-			return a + b
+	def add(a: int, b: int) -> int:
+		"""Add two integers and return their sum."""
+		return a + b
 
 
 In the example above, the 'add' function has two arguments (a and b), each annotated with int, indicating that they should be integers. The return value is annotated with int as well, 
