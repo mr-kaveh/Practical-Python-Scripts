@@ -29,7 +29,6 @@
  -   2-2 Loops
 	-   2-2-1 For
 		-   2-2-1-1 range
-	
 	-   2-2-2 While
 -   2-3 Control Flow (break-pass,match, pass)
 ---
