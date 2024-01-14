@@ -43,17 +43,15 @@
     
 -   The Python Standard Library
     
-
--   Data Structures
+### 4-Data Structures
     
-
--   Lists
+-   4-1-Lists
     
--   Tuples
+-   4-2-Tuples
     
--   Dictionaries
+-   4-3-Dictionaries
     
--   Sets
+-   4-4-Sets
     
 
 -   File Handling
