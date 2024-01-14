@@ -35,11 +35,11 @@
 ### 3-Functions and Modules
     
 
--   Defining Functions
+-   3-1-Defining Functions
     
--   default argument Values
+-   3-2-default argument Values
     
--   keyword arguments
+-   3-3-keyword arguments
     
 -   The Python Standard Library
     
