@@ -1,4 +1,4 @@
-# utilizes lists to keep the processes that are using more than 500MB memory on a linux system
+# utilizes lists to keep the processes that are using more than 100MB memory on a linux system
 
 import psutil
 
@@ -21,7 +21,7 @@ def get_processes_with_high_memory_usage(threshold_memory_mb=500):
     return high_memory_processes
 
 def main():
-    threshold_memory_mb = 500
+    threshold_memory_mb = 100
     high_memory_processes = get_processes_with_high_memory_usage(threshold_memory_mb)
 
     if high_memory_processes:
