@@ -1,3 +1,4 @@
+# Utilizes lists to keep ip address of the servers and pings them one by one in a loop and prints error massage if the server is not reachable
 import subprocess
 
 def ping_server(ip_address):
