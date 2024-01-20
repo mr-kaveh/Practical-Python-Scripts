@@ -1,3 +1,5 @@
+# use dictioneries as database
+#
 # Function to initialize an empty database
 def initialize_database():
     return {}
