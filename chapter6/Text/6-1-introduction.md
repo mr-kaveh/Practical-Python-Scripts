@@ -4,6 +4,7 @@ Python, a versatile and widely used programming language, supports various progr
 
 ### Basics of Object-Oriented Programming
 1. **Classes and Objects**
+
 At the core of Python OOP is the concept of classes and objects. A class is a blueprint or a template for creating objects, which are instances of that class. Objects encapsulate data (attributes) and behavior (methods) within a single unit, promoting code reusability and modularity.
 
 		class Dog:
@@ -22,6 +23,7 @@ At the core of Python OOP is the concept of classes and objects. A class is a bl
 		my_dog.bark()       # Output: Buddy says Woof!
 
 2. **Inheritance**
+
 Inheritance allows a class (subclass or derived class) to inherit attributes and methods from another class (base class or parent class). This promotes code reuse and establishes a hierarchy of classes.
 
 		class Animal:
@@ -46,6 +48,7 @@ Inheritance allows a class (subclass or derived class) to inherit attributes and
 		my_dog.make_sound()  # Output: Woof!
 
 3. **Encapsulation**
+   
 Encapsulation involves bundling data and methods that operate on the data within a single unit (class). Access to the internal details is controlled, often using access modifiers like public, private, and protected.
 
 		class BankAccount:
@@ -70,6 +73,7 @@ Encapsulation involves bundling data and methods that operate on the data within
 		print(account._balance)  # Output: 1300
 ### Advanced Concepts
 1. **Polymorphism**
+   
 Polymorphism allows objects of different classes to be treated as objects of a common base class. This promotes flexibility and extensibility in the code.
 
 		class Shape:
@@ -95,6 +99,7 @@ Polymorphism allows objects of different classes to be treated as objects of a c
 		for shape in shapes:
 		    print(f"Area: {shape.area()}")
 2. **Composition**
+   
 Composition involves creating complex objects by combining simpler objects. It allows for better code organization and flexibility compared to using inheritance alone.
 
 		class Engine:
@@ -112,6 +117,7 @@ Composition involves creating complex objects by combining simpler objects. It a
 		my_car = Car()
 		my_car.start()  # Output: Car starting... Engine started
 3. **Abstraction**
+
 Abstraction involves hiding the complex implementation details and exposing only the essential features of an object. This simplifies the usage of the object and reduces complexity.
 
 		from abc import ABC, abstractmethod
