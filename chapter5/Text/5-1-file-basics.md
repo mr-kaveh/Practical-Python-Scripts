@@ -111,6 +111,7 @@ The `json` module allows working with JSON (JavaScript Object Notation) files.
 ### Pickle Files
 
 The `pickle` module is used for serializing and deserializing Python objects. It's particularly useful when working with complex data structures.
+It is useful for saving and loading data structures, such as dictionaries or custom objects.
 
 	import pickle
 
