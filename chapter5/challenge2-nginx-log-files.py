@@ -1,5 +1,7 @@
-#  prints unique IPs nginx Access logs file
-import re
+#  This code prints unique IPs nginx Access logs file
+
+# Imports Regular Expression
+import re 
 
 nginx_log_file_path = '/var/log/nginx/access.log'
 
