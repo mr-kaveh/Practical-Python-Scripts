@@ -56,6 +56,7 @@
 ### 5-working with Files
 
 -   5-1-File Basics
+	- 5-1-1-brief introduction to pandas 
 -   5-x-Reading and Writing Files
     
 -   Using Context Managers
