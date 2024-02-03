@@ -56,12 +56,10 @@
 ### 5-working with Files
 
 -   5-1-File Basics
-	- 5-1-1-brief introduction to pandas 
--   5-x-Reading and Writing Files
+
+-   5-2-Brief introduction to pandas
     
--   Using Context Managers
-    
--   CSV and JSON Files
+-   5-3-Handling Exceptions
     
 
 Part II: Object-Oriented Programming 6. Classes and Objects
