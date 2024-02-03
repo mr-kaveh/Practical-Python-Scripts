@@ -56,10 +56,13 @@
 ### 5-working with Files
 
 -   5-1-File Basics
+  	- chal[1,2]
 
 -   5-2-Brief introduction to pandas
+	- chal[3]
     
 -   5-3-Handling Exceptions
+  	- chal[4,5]
     
 
 Part II: Object-Oriented Programming 6. Classes and Objects
