@@ -64,8 +64,11 @@
 -   5-3-Handling Exceptions
   	- chal[4,5]
     
+---
 
-Part II: Object-Oriented Programming 6. Classes and Objects
+##  Part II: Object-Oriented Programming 
+
+### 6-Classes and Objects
 
 -   Creating Classes
     
