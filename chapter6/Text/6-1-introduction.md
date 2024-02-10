@@ -1,4 +1,5 @@
 
+
 ## Introduction to Object Oriented Programming
 Python, a versatile and widely used programming language, supports various programming paradigms. One of the most popular and powerful paradigms in Python is Object-Oriented Programming (OOP). OOP allows developers to structure their code in a way that mirrors the real-world entities and their interactions, making it easier to design, implement, and maintain complex systems. In this comprehensive guide, we'll delve into the fundamentals of Python OOP, covering key concepts, principles, and practical examples.
 
@@ -46,6 +47,61 @@ Inheritance allows a class (subclass or derived class) to inherit attributes and
 
 		my_cat.make_sound()  # Output: Meow!
 		my_dog.make_sound()  # Output: Woof!
+
+here is a more complex example:
+
+	class Vehicle:
+	    def __init__(self, brand, model, year):
+	        self.brand = brand
+	        self.model = model
+	        self.year = year
+
+	    def accelerate(self):
+	        raise NotImplementedError("Subclass must implement abstract method")
+
+	    def brake(self):
+	        raise NotImplementedError("Subclass must implement abstract method")
+
+	class Car(Vehicle):
+	    def __init__(self, brand, model, year, horsepower):
+	        super().__init__(brand, model, year)
+	        self.horsepower = horsepower
+
+	    def accelerate(self):
+	        return f"{self.brand} {self.model} with {self.horsepower}hp is accelerating."
+
+	    def brake(self):
+	        return f"{self.brand} {self.model} is braking."
+
+	class Motorcycle(Vehicle):
+	    def __init__(self, brand, model, year, engine_size):
+	        super().__init__(brand, model, year)
+	        self.engine_size = engine_size
+
+	    def accelerate(self):
+	        return f"{self.brand} {self.model} with {self.engine_size}cc engine is revving up."
+
+	    def brake(self):
+	        return f"{self.brand} {self.model} is applying brakes."
+
+	# Creating instances of subclasses
+	car = Car("Toyota", "Camry", 2022, 200)
+	motorcycle = Motorcycle("Honda", "CBR600RR", 2023, 600)
+
+	# Calling methods
+	print(car.accelerate())  # Output: Toyota Camry with 200hp is accelerating.
+	print(motorcycle.accelerate())  # Output: Honda CBR600RR with 600cc engine is revving up.
+
+	print(car.brake())  # Output: Toyota Camry is braking.
+	print(motorcycle.brake())  # Output: Honda CBR600RR is applying brakes.
+
+In this example:
+
+-   We have a base class `Vehicle` with methods `accelerate()` and `brake()`, which are abstract and need to be implemented by subclasses.
+-   We have two subclasses: `Car` and `Motorcycle`, each representing different types of vehicles. They inherit from the `Vehicle` class and implement the abstract methods with their specific behavior.
+-   We create instances of `Car` and `Motorcycle` classes and call the `accelerate()` and `brake()` methods on them to demonstrate polymorphism, where the behavior of the method depends on the type of object.
+
+This example showcases how inheritance allows us to create a hierarchy of classes with shared behaviors and specialized functionalities, in this case, for managing vehicles.
 
 3. **Encapsulation**
    
