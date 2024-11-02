@@ -70,7 +70,9 @@
 
 ### 6-Classes and Objects
 
--   Creating Classes
+-   6-1-Introduction
+
+-   6-2-Creating Classes
     
 -   Object Instances and Attributes
     
